@@ -1,0 +1,12 @@
+body {
+	background-image: url('imgs/index.png');
+}
+
+#logo {
+	margin-top: 50rem;
+}
+
+.botoes {
+	height: 11.5rem;
+	margin-top: 24rem;
+}
