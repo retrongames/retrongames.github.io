@@ -1,12 +1,21 @@
 body {
 	background-image: url('imgs/index.png');
+	background-size: 100vw;
+	background-repeat: no-repeat;
+}
+
+#tudo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100vh;
 }
 
 #logo {
-	margin-top: 50rem;
+	margin-top: 5rem;
 }
 
 .botoes {
-	height: 11.5rem;
-	margin-top: 24rem;
+	height: 4rem;
+
 }
