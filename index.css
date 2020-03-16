@@ -1,10 +1,9 @@
-body {
+
+
+#tudo1 {
 	background-image: url('imgs/index.png');
 	background-size: 100vw;
 	background-repeat: no-repeat;
-}
-
-#tudo {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -12,10 +11,11 @@ body {
 }
 
 #logo {
-	margin-top: 5rem;
+	margin-top: 2rem;
 }
 
 .botoes {
 	height: 4rem;
 
 }
+

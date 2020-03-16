@@ -1,7 +1,14 @@
-body {
+
+#tudo2 {
 	background-image: url('imgs/tela-maozinhas.png');
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100vh;
 }
 
 #cardco {
-	margin-top: 5rem;
+	margin-top: 2rem;
 }
