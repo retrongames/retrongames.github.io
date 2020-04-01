@@ -11,26 +11,106 @@
     <!-- CSS nosso -->
     <link rel="stylesheet" type="text/css" href="index.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/352a12bfbd.js" crossorigin="anonymous"></script>
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <title>Retron</title>
   </head>
   <body>
+    <!-- tela inicial -->
+<div class="tela active" id="tela-inicio" >
     <div id="tudo1" class="container-fluid">
     	<div class="container-fluid">
-    		<div class="row d-flex justify-content-center">
+    		<div id="inicio" class="row d-flex justify-content-center">
     			<img  id="logo" class="col-sm-12" src="imgs/logo.png">
     		</div>
     	</div>
-
-    	<div class="container-fluid">
-    		<div class="d-flex justify-content-center">
-                <a href="menu.html">
-    			<button type="button" class="btn btn-info col-12 text-center botoes">
-                    <img  class="buttontext3" src="imgs/start.png">         
-                </button>
-                </a>
-    		</div>
-    	</div>
     </div>
+</div>
+
+    <!-- tela menu -->
+<div class="tela" id="tela-menu">
+    <div id="tudo3" class="container-fluid tudo3">
+        <div class="container-fluid">
+            <div  id="a" class="row d-flex justify-content-center">
+                <img  id="logo3" src="imgs/logo.png">
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-info col-sm-6 text-center botoes ba">
+                    <img class="buttontext2" src="imgs/tutorial1.png">         
+                </button>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-info col-sm-6 text-center botoes ba">
+                    <img class="buttontext2" src="imgs/comando1.png">
+                </button>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn col-sm-6 text-center botoes bv" onclick="jogar()">
+                    <img  class="buttontext3" src="imgs/jogar.png">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--tela pontuacao-->
+    <div class="tela" id="tela-jogar">
+        <div id="tudo4" class="container-fluid">
+        <div class="container-fluid">
+
+        <div class="text-right">
+        <button id="bluetooth" type="button" class="btn off">
+        <span id="textobluetooth">CONECTAR</span>
+        <i class="fab fa-bluetooth-b fa-lg"></i>
+        </button>
+        </div>
+
+        <div class="container-fluid">
+            <div  id="a" class="row d-flex justify-content-center">
+                <img  id="logo4" src="imgs/logo.png">
+            </div>
+        </div>
+
+            <div>
+                <img id="points" class="col-sm-12" src="imgs/bpoints.png">
+            </div>
+            <div id="cardco" class="row d-flex justify-content-center">
+                <div class="card border-0 col-sm-12" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">0 0 0 0 0 0 0 0 0</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+                <button id="b1" type="button" class="btn botaoa">
+                    <i class="fas fa-play fa-lg playstopt"></i>
+                </button>
+
+                <button id="b1" type="button" class="btn botaoa">
+                    <i class="fas fa-undo-alt fa-lg playstopt"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- javascript nosso -->
+    <script src="scriptzinho.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
