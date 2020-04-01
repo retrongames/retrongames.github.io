@@ -10,6 +10,12 @@ setTimeout(function splash_screen() {
   console.log(location.pathname)
 }, 3000)
 
+function menu() {
+  document.querySelector('div.tela.active').classList.remove('active')
+  tela_menu.classList.add('active')
+  console.log(location.pathname)
+}
+
 function tutorial() {
   document.querySelector('div.tela.active').classList.remove('active')
   tela_tutorial.classList.add('active')
