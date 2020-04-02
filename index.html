@@ -16,7 +16,7 @@
     <script src="https://kit.fontawesome.com/e8c4709585.js" crossorigin="anonymous"></script>
 
     <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,800i&display=swap" rel="stylesheet">
 
     <title>Retron</title>
   </head>
@@ -37,19 +37,19 @@
     <div id="tudo3" class="container-fluid tudo3">
         <div class="container-fluid">
             <div  id="a" class="row d-flex justify-content-center">
-                <img  id="logo3" src="imgs/logo.png">
+                <img  id="logo3" src="imgs/logop.png">
             </div>
         </div>
 
         <div class="container-fluid">
             <div class="d-flex justify-content-center">
-                <button type="button" class="btn col-sm-6 text-center botoes ba">
+                <button type="button" class="btn col-sm-6 text-center botoes ba" onclick="tutorial()"> 
                     <span class="teb menubt">tutorial</span>         
                 </button>
             </div>
 
             <div class="d-flex justify-content-center">
-                <button type="button" class="btn col-sm-6 text-center botoes ba">
+                <button type="button" class="btn col-sm-6 text-center botoes ba" onclick="comando()">
                     <span class="teb menubt">comandos</span>
                 </button>
             </div>
@@ -69,8 +69,8 @@
         <div class="container-fluid">
 
         <div class="row d-flex justify-content-between" id="pontlinha1">
-            <div class="text-left align-middle goback">
-                <i class="fas fa-chevron-left fa-2x" onclick="menu()"></i>
+            <div class="text-left align-middle">
+                <i class="fas fa-chevron-left fa-2x goback" onclick="menu()"></i>
             </div>
             <div id="aaaa" class="text-right">
                 <button id="bluetooth" type="button" class="btn off">
@@ -110,6 +110,57 @@
         </div>
     </div>
     </div>
+
+
+    <!-- tutorial -->
+
+<div class="tela" id="tela-tuto">
+    <div id="tudo6" class="container-fluid">
+           <div class="text-left tutocomando">
+                <i class="fas fa-chevron-left fa-2x goback" onclick="menu()"></i>
+            </div>
+
+            <div  class="row d-flex justify-content-center loguinhomt">
+                <img  id="logo5" src="imgs/logop.png">
+            </div>
+        </div>
+</div>
+
+    <!-- comandos -->
+
+    <div class="tela" id="tela-com">
+    <div id="tudo5" class="container-fluid">
+           <div class="text-left goback tutocomando">
+                <i class="fas fa-chevron-left fa-2x goback" onclick="menu()"></i>
+            </div>
+
+            <div  class="row d-flex justify-content-center loguinhomt">
+                <img  id="logo5" src="imgs/logop.png">
+            </div>
+
+            <h1 class="titulosct teb text-center" style="margin-top: 1.5rem; margin-bottom: 1.7rem;">comandos</h1>
+
+            <div class="row">
+                <img class="luvinha col-5" src="imgs/luva.svg" alt="ilustração de uma luva">
+
+                <img class="colchete col-7" src="imgs/colchete.svg">
+            </div>
+
+            <div class="row">
+                <p class="textog">
+                    Cada dedo<br>
+                    pertence a uma<br>
+                    cor diferente<br>
+                    na mesa:<br>
+                </p>
+
+                <p style="color: #fff;">
+                    teste
+                </p>
+
+            </div>
+        </div>
+</div>
 
 
 

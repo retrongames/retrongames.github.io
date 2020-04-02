@@ -1,7 +1,7 @@
 let tela_inicio = document.getElementById('tela-inicio');
 let tela_menu = document.getElementById('tela-menu');
-let tela_tutorial = document.getElementById('colocar-aqui-a-id-da-tela-tutorial');
-let tela_comando = document.getElementById('colocar-aqui-a-id-da-tela-comando');
+let tela_tutorial = document.getElementById('tela-tuto');
+let tela_comando = document.getElementById('tela-com');
 let tela_jogar = document.getElementById('tela-jogar');
 
 setTimeout(function splash_screen() {
@@ -33,3 +33,4 @@ function jogar() {
   tela_jogar.classList.add('active')
   console.log(location.pathname)
 }
+

@@ -17,6 +17,13 @@
 	color: #fff;
 }
 
+.titulosct {
+	font-size: 1.9rem;
+	letter-spacing: 0.5rem;
+	color: #fff;
+	text-shadow: #0093f5 -3px 2.7px;
+}
+
 
 /* tela inicio */
 
@@ -162,6 +169,70 @@
 #pontlinha1 {
 	margin-top: 1rem;
 }
+
+/*tela tutorial*/
+
+#tudo6 {
+	background: #150032 url('imgs/tutorial.svg');
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	height: 100vh!important;
+}
+
+/*tela comandos*/
+
+#tudo5 {
+	background: #150032 url('imgs/comandos.svg');
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	height: 100vh!important;
+}
+
+#logo5 {
+	width: 12rem;
+	max-height: 10rem;
+	margin-top: 0;
+}
+
+.tutocomando {
+	margin-top: 1rem;
+}
+
+.loguinhomt {
+	margin-top: -2rem;
+}
+
+.textoc {
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+.textog {
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.luvinha {
+
+}
+
+
+.colchete {
+
+
+}
+
+
+
+
+
+
 
 
 /*Toggle view*/
