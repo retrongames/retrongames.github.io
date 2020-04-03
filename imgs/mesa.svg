@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="651" viewBox="0 0 650 651">
+  <g id="mesa" transform="translate(-139.378 -937)">
+    <rect id="Retângulo_47" data-name="Retângulo 47" width="650" height="651" rx="18" transform="translate(139.378 937)" fill="#fff"/>
+    <g id="Grupo_53" data-name="Grupo 53" transform="translate(153.783 954.105)">
+      <g id="cores" transform="translate(0 0)">
+        <g id="verme" transform="translate(0)">
+          <rect id="Retângulo_37" data-name="Retângulo 37" width="224" height="237" transform="translate(-0.404 73.895)" fill="#ff003c"/>
+          <rect id="vermelho" width="311" height="311" rx="26" transform="translate(-0.404 -0.105)" fill="#ff003c"/>
+          <rect id="Retângulo_30" data-name="Retângulo 30" width="223" height="237" transform="translate(87.596 73.895)" fill="#ff003c"/>
+          <rect id="Retângulo_38" data-name="Retângulo 38" width="223" height="237" transform="translate(87.596 -0.105)" fill="#ff003c"/>
+        </g>
+        <rect id="verde" width="223" height="237" transform="translate(310.596 73.895)" fill="#20a6c1"/>
+        <rect id="Retângulo_39" data-name="Retângulo 39" width="223" height="237" transform="translate(310.596 -0.105)" fill="#20a6c1"/>
+        <rect id="Retângulo_27" data-name="Retângulo 27" width="311" height="311" transform="translate(310.596 -0.105)" fill="#00e415"/>
+        <rect id="azul" width="311" height="310" transform="translate(310.596 310.895)" fill="#058cff"/>
+        <g id="amarelo" transform="translate(0 310.596)">
+          <rect id="amarelo-2" data-name="amarelo" width="223" height="236" transform="translate(87.596 0.299)" fill="#fbad18"/>
+          <rect id="Retângulo_43" data-name="Retângulo 43" width="223" height="236" transform="translate(87.596 74.299)" fill="#fbad18"/>
+          <rect id="Retângulo_29" data-name="Retângulo 29" width="311" height="310" rx="26" transform="translate(-0.404 0.299)" fill="#fbad18"/>
+          <rect id="Retângulo_44" data-name="Retângulo 44" width="224" height="236" transform="translate(-0.404 0.299)" fill="#fbad18"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
