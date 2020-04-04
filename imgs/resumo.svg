@@ -1,0 +1,23 @@
+<svg id="Componente_1_1" data-name="Componente 1 – 1" xmlns="http://www.w3.org/2000/svg" width="867" height="427" viewBox="0 0 867 427">
+  <g id="Grupo_140" data-name="Grupo 140" transform="translate(-288 -882)">
+    <g id="Grupo_100" data-name="Grupo 100">
+      <text id="RETRON_é_um_jogo_de_memorização_usando_a_visão_audição_e_muito_movimento_da_mão." data-name="RETRON é um jogo de memorização usando a 
+visão, audição e muito 
+movimento da mão." transform="translate(330 903)" fill="#150032" font-size="57" font-family="Poppins-Black, Poppins" font-weight="800" letter-spacing="0.168em"><tspan x="43.728" y="60">RETRON</tspan><tspan y="60" font-family="Poppins-ExtraBold, Poppins" letter-spacing="0.034em"> </tspan><tspan y="60" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.034em">é um jogo de </tspan><tspan x="28.052" y="155" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.034em">memorização usando a </tspan><tspan font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.034em"><tspan x="44.411" y="250">visão, audição e muito </tspan><tspan x="82.06" y="345">movimento da mão.</tspan></tspan></text>
+      <g id="Grupo_80" data-name="Grupo 80" transform="translate(-4728 3369)">
+        <text id="RETRON" transform="translate(5099 -2467)" fill="#173ba7" font-size="57" font-family="Poppins-Black, Poppins" font-weight="800" letter-spacing="0.168em"><tspan x="0" y="60">RETRON</tspan></text>
+        <text id="ON" transform="translate(5281 -2467)" fill="#f4b531" font-size="57" font-family="Poppins-Black, Poppins" font-weight="800" letter-spacing="0.168em"><tspan x="0" y="60">ON</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_92" data-name="Grupo 92" transform="translate(1.5 5.5)">
+      <line id="Linha_1" data-name="Linha 1" y2="418" transform="translate(1144.5 885.5)" fill="none" stroke="#7fcbfd" stroke-width="18"/>
+      <line id="Linha_2" data-name="Linha 2" x2="63" transform="translate(1090.5 885.5)" fill="none" stroke="#7fcbfd" stroke-width="18"/>
+      <line id="Linha_3" data-name="Linha 3" x2="63" transform="translate(1090.5 1294.5)" fill="none" stroke="#7fcbfd" stroke-width="18"/>
+    </g>
+    <g id="Grupo_93" data-name="Grupo 93" transform="translate(1441.5 2185.5) rotate(180)">
+      <line id="Linha_1-2" data-name="Linha 1" y2="418" transform="translate(1144.5 885.5)" fill="none" stroke="#7fcbfd" stroke-width="18"/>
+      <line id="Linha_2-2" data-name="Linha 2" x2="63" transform="translate(1090.5 885.5)" fill="none" stroke="#7fcbfd" stroke-width="18"/>
+      <line id="Linha_3-2" data-name="Linha 3" x2="63" transform="translate(1090.5 1294.5)" fill="none" stroke="#7fcbfd" stroke-width="18"/>
+    </g>
+  </g>
+</svg>

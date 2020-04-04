@@ -1,5 +1,9 @@
 /*títulos e botoes*/
 
+ .btn-voltar {
+    z-index: 9;
+}
+
 .teb {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 800;
@@ -124,7 +128,7 @@
 	background-color: #ff003c;
 }
 
-#b1 {
+.b1 {
 	margin-right: 1.5rem;
 
 }
@@ -192,7 +196,7 @@
 	height: 100vh!important;
 }
 
-#logo5 {
+.logo5 {
 	width: 12rem;
 	max-height: 10rem;
 	margin-top: 0;
@@ -294,4 +298,50 @@
 }
 .tela.active {
 	display: block;
+}
+
+/*tela tutorial*/
+
+#tudo6 {
+	background: #150032 url('imgs/tutorial.svg');
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	height: 110vh!important;
+}
+
+.card{
+	height: 60%;
+	width: 60%;
+}
+
+.card-img-top{
+	padding-top: 2%;
+	padding-left: 10%;
+	width: 90%;
+}
+
+.titulo-como{
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+	text-shadow: #DBFF3C -3px 2.7px;
+
+}
+
+.lista-como{
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.lista-como b{
+	font-size: 2rem;
+	margin-right: 5%;
+	color: #7FCBFD;
+	text-shadow: #FF003C -3px 2.7px;
 }
