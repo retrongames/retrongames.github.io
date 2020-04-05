@@ -302,46 +302,61 @@
 
 /*tela tutorial*/
 
+ 
+
 #tudo6 {
-	background: #150032 url('imgs/tutorial.svg');
-	background-size: 100vw;
-	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: column;
-	height: 110vh!important;
+    background: #150032 url('imgs/tutorial.svg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 110vh!important;
 }
+
+ 
 
 .card{
-	height: 60%;
-	width: 60%;
+    height: 60%;
+    width: 60%;
 }
+
+ 
 
 .card-img-top{
-	padding-top: 2%;
-	padding-left: 10%;
-	width: 90%;
+    padding-top: 2%;
+    padding-left: 10%;
+    width: 90%;
 }
+
+ 
 
 .titulo-como{
-	color: black;
-	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
-	font-size: 1.5rem;
-	text-align: center;
-	text-shadow: #DBFF3C -3px 2.7px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    text-shadow: #DBFF3C -3px 2.7px;
+
+ 
 
 }
+
+ 
 
 .lista-como{
-	font-family: 'Poppins', sans-serif;
-	list-style: none;
-	font-size: 1.1rem;
-	font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
+ 
+
 .lista-como b{
-	font-size: 2rem;
-	margin-right: 5%;
-	color: #7FCBFD;
-	text-shadow: #FF003C -3px 2.7px;
+    font-size: 1.5rem;
+    margin-right: 5%;
+    color: #7FCBFD;
+    text-shadow: #FF003C -3px 2.7px;
 }
+ 
