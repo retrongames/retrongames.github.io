@@ -118,7 +118,10 @@
 }
 
 #points {
-	
+	font-size: 1.7rem;
+	letter-spacing: 0.4rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;	
 }
 
 .botaoa {
@@ -139,14 +142,6 @@
 
 
 
-#bluetooth {
-	font-family: 'Poppins', sans-serif;
-	color: #fff;
-	margin-bottom: 1rem;
-	height: 2.8rem;
-	font-size: 0.9rem;
-
-}
 
 #aaaa {
 	text-align: right!important;
@@ -155,6 +150,16 @@
 
 #textobluetooth {
 	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	margin-bottom: 1rem;
+	height: 2.8rem;
+	font-size: 0.9rem;
+
+}
+
+.bicon {
+	color: #fff;
 }
 
 .on {
@@ -174,16 +179,6 @@
 	margin-top: 1rem;
 }
 
-/*tela tutorial*/
-
-#tudo6 {
-	background: #150032 url('imgs/tutorial.svg');
-	background-size: 100vw;
-	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: column;
-	height: 100vh!important;
-}
 
 /*tela comandos*/
 
@@ -358,5 +353,23 @@
     margin-right: 5%;
     color: #7FCBFD;
     text-shadow: #FF003C -3px 2.7px;
+}
+
+@media (max-width: 320px) {
+
+	.titulo-como	
+	{
+		font-size: 1rem;
+	}
+
+	.lista-como 	
+	{
+		font-size: 0.8rem;
+	}
+
+		.lista-como b	
+	{
+		font-size: 1.3rem;
+	}
 }
  
