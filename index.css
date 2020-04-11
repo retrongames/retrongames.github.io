@@ -68,7 +68,7 @@
 #logo3 {
 	margin-top: 2rem;
 	width: 12rem;
-	max-height: 10rem;
+	max-height: 9.9rem;
 }
 
 .menubt {
@@ -193,7 +193,7 @@
 
 .logo5 {
 	width: 12rem;
-	max-height: 13.5rem;
+	max-height: 9.9rem;
 	margin-top: 0;
 }
 
@@ -271,7 +271,7 @@
 
 #colchete {
 	max-height: 12rem;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif!important;
 
 }
 
@@ -375,6 +375,6 @@
 }
 
 #resumo {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif!important;
 }
  
